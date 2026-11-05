@@ -1,0 +1,7 @@
+# 대학공시 마스터 작업(DB build 마스터.py) 실행에 필요한 외부 패키지
+# 나머지 import(calendar, collections, csv, datetime, glob, os, re, sys, traceback, dataclasses)는 표준 라이브러리라 설치 불필요
+
+pandas>=2.2
+openpyxl>=3.1        # .xlsx 읽기
+xlrd>=2.0.1          # 구형 .xls 읽기 (학교개황이 .xls로 내려오는 해가 있다)
+pdfplumber>=0.11     # 지침서 PDF 읽기 (공시기관 표시를 글자 색으로 판별)
